@@ -17,7 +17,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/daily-nutrition")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:3000", "https://foodmotion-frontend-hlfxsphkja-ew.a.run.app"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://foodmotion-frontend-hlfxsphkja-ew.a.run.app","https://foodmotion-api-gateway-6xxrfy77.ew.gateway.dev"})
 public class DailyNutritionController {
 
     @Autowired
